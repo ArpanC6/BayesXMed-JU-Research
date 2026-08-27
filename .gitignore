@@ -1,0 +1,49 @@
+data/
+Dataset_BUSI_with_GT/
+UDIAT/
+BUS-BRA/
+BrEaST/
+OASBUD/
+
+# Data Archives 
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+
+# Image Files 
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.dicom
+*.nii
+*.nii.gz
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

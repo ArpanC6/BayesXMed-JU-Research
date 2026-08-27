@@ -1,0 +1,50 @@
+{
+  "fold": 0,
+  "epochs": 100,
+  "models": {
+    "det_resnet50": {
+      "accuracy": 0.8910,
+      "ece": 0.0619,
+      "brier": 0.1874,
+      "nll": 0.3564
+    },
+    "mc_dropout": {
+      "accuracy": 0.9038,
+      "ece": 0.0640,
+      "brier": 0.1565,
+      "nll": 0.3790
+    },
+    "deep_ensemble": {
+      "accuracy": 0.9038,
+      "ece": 0.0507,
+      "brier": 0.1498,
+      "nll": 0.3202
+    }
+  },
+  "malignant_sensitivity": 0.7857,
+  "xum": {
+    "pearson_r": 0.6412,
+    "pearson_p": 0.0001,
+    "spearman_r": 0.4073,
+    "spearman_p": 0.0255,
+    "n_samples": 30
+  },
+  "ood": {
+    "MSP": {"auroc": 0.4451, "aupr": 0.2045},
+    "Energy": {"auroc": 0.5376, "aupr": 0.2382},
+    "Mahalanobis": {"auroc": 0.9571, "aupr": 0.8399}
+  },
+  "selective_prediction": {
+    "100%": 90.38,
+    "90%": 93.57,
+    "80%": 96.77,
+    "70%": 96.33,
+    "60%": 96.77,
+    "50%": 97.44
+  },
+  "class_report": {
+    "benign": {"precision": 0.8925, "recall": 0.9432, "f1-score": 0.9171, "support": 88},
+    "malignant": {"precision": 0.8919, "recall": 0.7857, "f1-score": 0.8354, "support": 42},
+    "normal": {"precision": 0.8846, "recall": 0.8846, "f1-score": 0.8846, "support": 26}
+  }
+}
