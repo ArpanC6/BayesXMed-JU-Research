@@ -1,0 +1,26 @@
+{
+  "noise_sweep": {
+    "sigma_0.1": { "xum_auroc": 0.6629, "pe_auroc": 0.9052, "mi_auroc": 0.8150, "xum_ratio": 1.93 },
+    "sigma_0.2": { "xum_auroc": 0.8963, "pe_auroc": 0.9935, "mi_auroc": 0.8165, "xum_ratio": 4.36 },
+    "sigma_0.3": { "xum_auroc": 0.9877, "pe_auroc": 1.0000, "mi_auroc": 0.7700, "xum_ratio": 5.02 },
+    "sigma_0.4": { "xum_auroc": 0.9946, "pe_auroc": 1.0000, "mi_auroc": 0.8632, "xum_ratio": 8.19 },
+    "sigma_0.5": { "xum_auroc": 0.9907, "pe_auroc": 0.9999, "mi_auroc": 0.9268, "xum_ratio": 8.75 }
+  },
+  "localization": {
+    "inside_lesion_variance": 0.00344,
+    "outside_lesion_variance": 0.00062,
+    "ratio": 5.54,
+    "mann_whitney_p": 1.24e-24,
+    "cohens_d": 1.13
+  },
+  "ablation_sigma_0.4": {
+    "xum": { "auroc": 0.9921, "auprc": 0.9921 },
+    "predictive_entropy": { "auroc": 0.9905, "auprc": 0.9752 },
+    "mutual_information": { "auroc": 0.8377, "auprc": 0.7039 }
+  },
+  "genuine_error_detection": {
+    "predictive_entropy": { "auroc": 0.7168, "auprc": 0.1127 },
+    "mutual_information": { "auroc": 0.7564, "auprc": 0.0643 },
+    "xum_gradcam": { "auroc": 0.6875, "auprc": 0.0634 }
+  }
+}

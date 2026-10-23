@@ -1,0 +1,38 @@
+{
+  "aurc": 0.0263,
+  "coverage_100": {
+    "accuracy": 0.9103,
+    "risk": 0.0897,
+    "malignant_sensitivity": 0.8571
+  },
+  "coverage_95": {
+    "accuracy": 0.9257,
+    "risk": 0.0743,
+    "malignant_sensitivity": 0.8750
+  },
+  "coverage_90": {
+    "accuracy": 0.9429,
+    "risk": 0.0571,
+    "malignant_sensitivity": 0.9189
+  },
+  "coverage_85": {
+    "accuracy": 0.9545,
+    "risk": 0.0455,
+    "malignant_sensitivity": 0.9143
+  },
+  "coverage_80": {
+    "accuracy": 0.9516,
+    "risk": 0.0484,
+    "malignant_sensitivity": 0.9000
+  },
+  "coverage_75": {
+    "accuracy": 0.9573,
+    "risk": 0.0427,
+    "malignant_sensitivity": 0.9259
+  },
+  "coverage_70": {
+    "accuracy": 0.9633,
+    "risk": 0.0367,
+    "malignant_sensitivity": 0.9600
+  }
+}

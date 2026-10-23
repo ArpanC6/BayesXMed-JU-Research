@@ -1,0 +1,5 @@
+{
+  "baseline_ece": 0.0644,
+  "optimal_temperature": 0.85,
+  "calibrated_ece": 0.0379
+}

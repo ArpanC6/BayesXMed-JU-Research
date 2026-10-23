@@ -1,36 +1,30 @@
 {
-  "det_resnet50": {
-    "accuracy_mean": 0.8769,
-    "accuracy_std": 0.0276,
-    "ece_mean": 0.0715,
-    "ece_std": 0.0218,
-    "brier_mean": 0.2044,
-    "brier_std": 0.048,
-    "nll_mean": 0.4188,
-    "nll_std": 0.1154
-  },
   "mc_dropout": {
-    "accuracy_mean": 0.8859,
-    "accuracy_std": 0.0276,
-    "ece_mean": 0.073,
-    "ece_std": 0.0179,
-    "brier_mean": 0.1855,
-    "brier_std": 0.0411,
-    "nll_mean": 0.3841,
-    "nll_std": 0.0854
+    "accuracy_mean": 0.8936,
+    "accuracy_std": 0.0313,
+    "ece_mean": 0.0657,
+    "ece_std": 0.0194,
+    "brier_mean": 0.1681,
+    "brier_std": 0.0328,
+    "nll_mean": 0.3333,
+    "nll_std": 0.0624,
+    "malignant_sensitivity_mean": 0.8238,
+    "malignant_sensitivity_std": 0.0621,
+    "specificity_mean": 0.9667,
+    "specificity_std": 0.0116
   },
   "deep_ensemble": {
-    "accuracy_mean": 0.8885,
-    "accuracy_std": 0.0217,
-    "ece_mean": 0.0654,
-    "ece_std": 0.0127,
-    "brier_mean": 0.1729,
-    "brier_std": 0.0323,
-    "nll_mean": 0.3601,
-    "nll_std": 0.0828
-  },
-  "malignant_sensitivity": {
-    "mean": 0.8238,
-    "std": 0.0819
+    "accuracy_mean": 0.9090,
+    "accuracy_std": 0.0254,
+    "ece_mean": 0.0853,
+    "ece_std": 0.0165,
+    "brier_mean": 0.1479,
+    "brier_std": 0.0209,
+    "nll_mean": 0.2999,
+    "nll_std": 0.0437,
+    "malignant_sensitivity_mean": 0.8429,
+    "malignant_sensitivity_std": 0.0319,
+    "specificity_mean": 0.9737,
+    "specificity_std": 0.0184
   }
 }

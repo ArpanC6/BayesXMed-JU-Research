@@ -1,0 +1,26 @@
+{
+  "UDIAT": {
+    "n": 163,
+    "accuracy": 0.8037,
+    "sensitivity": 0.4815,
+    "specificity": 0.9633,
+    "auroc": 0.8169,
+    "ci_95": [73.62, 85.89]
+  },
+  "BUS-BRA": {
+    "n": 1875,
+    "accuracy": 0.6827,
+    "sensitivity": 0.4217,
+    "specificity": 0.8076,
+    "auroc": 0.6808,
+    "ci_95": [66.19, 70.29]
+  },
+  "BrEaST": {
+    "n": 252,
+    "accuracy": 0.6627,
+    "sensitivity": 0.5000,
+    "specificity": 0.7662,
+    "auroc": 0.7512,
+    "ci_95": [60.71, 71.43]
+  }
+}

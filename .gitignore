@@ -1,3 +1,7 @@
+# BayesXMed: .gitignore
+# Author: Arpan Chakraborty
+
+# Dataset folders
 data/
 Dataset_BUSI_with_GT/
 UDIAT/
@@ -5,7 +9,7 @@ BUS-BRA/
 BrEaST/
 OASBUD/
 
-# Data Archives 
+# Data archives
 *.zip
 *.tar.gz
 *.tgz
@@ -15,35 +19,55 @@ OASBUD/
 *.bz2
 *.xz
 
-# Image Files 
-*.bmp
-*.png
-*.jpg
-*.jpeg
-*.tif
-*.tiff
+# Medical image formats
 *.dicom
 *.nii
 *.nii.gz
 
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
 
+# Result files
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
+*$py.class
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # Virtual Environment
 venv/
 env/
+ENV/
 .venv/
+.conda/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # OS
 Thumbs.db
 .DS_Store
+desktop.ini
+
+# Logs
+*.log
+logs/
